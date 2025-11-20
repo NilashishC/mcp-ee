@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ee90
+  description: EE
+  tags:
+    - execution-environment
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/managed-by-location: github.com?repo=mcp-ee&owner=NilashishC
+    backstage.io/source-template: template:default/ansible-execution-environment-builder-start-from-scratch
+spec:
+  type: execution-environment
+  owner: user:default/admin
+  lifecycle: production
